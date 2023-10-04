@@ -37,3 +37,26 @@
     transform: translateY(0px);
   }
 }
+.btn{
+   /* Your button styles */
+   margin-top: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: #3498db;
+   color: white;
+   border: none;
+   transition: transform 0.2s; /* Add a transition for smooth scaling */
+   position: fixed;
+   right: 10px;
+ 
+   /* Center the text vertically and horizontally */
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   border-radius: 5px;
+   box-shadow: #3498db;
+}
+.btn :hover{
+  transform: scale(1.1); 
+}
